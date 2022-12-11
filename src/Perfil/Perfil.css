@@ -1,0 +1,186 @@
+#Perfil *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface'
+}
+
+body{
+    background: #f4f4f4;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#navigation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;   
+    background: rgb(225, 225, 225);
+}
+
+#Perfil #Pesquisar{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+#Home a{
+    color: #4E008E;
+}
+
+header #Logo{
+    display: flex;
+    align-items: center;
+    
+    border-radius: 15px;
+}
+
+header #Nome{
+    text-decoration: none;
+    color:#4E008E ;
+    margin-right: 10px;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header span{
+    color: #ff5500;
+}
+
+header img{
+    width: 80px;
+    height: 80px;
+}
+
+#Ecoin{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px 10px;
+}
+
+#Ecoin img{
+    width: 50px;
+    height: 50px;
+}
+
+#Ecoin a{
+    font-size: 20px;
+    color: black;
+}
+
+
+
+#parteUm #fotoPerfil{
+    width: 140px;
+    height: 130px;
+    margin: 20px;
+    display: block;
+    background: #ccc;
+    border-radius: 50%;
+
+}
+
+#ladoPerfil{
+    flex-direction: column;
+}
+
+#ladoPerfil p{
+    color: black;
+}
+
+
+#textoUm{
+    margin: 15px 30px;
+    font-size: 25px;
+}
+
+#parteUm #junta{
+    display: flex;
+    align-items: center;
+}
+
+#parteUm #btnEditar{
+    margin: 30px 30px;
+    text-decoration: none;
+    border: 1px solid darkgray;
+    color: black;
+    font-size: 18px;
+    padding: 10px 33px;
+    border-radius: 10px;
+}
+
+#indicacoes ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+    list-style: none;
+    font-size: 17px;
+    margin: auto 40px;
+    font-weight: 600;
+}
+
+.Descri{
+    margin: 10px 40px;
+}
+
+.Descri p{
+    color: black;
+}
+
+#parteDois video{
+    width: 200px;
+    height: 400px;
+    
+}
+
+#parteDois #Videos{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 40px;
+}
+
+#parteDois ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    margin: 30px 40px 10px;
+    font-size: 17px;
+    font-weight: 600;
+    gap: 45%;
+}
+
+.Barra{
+    margin: 0 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+    width: 40%;
+}
+
+#linhaUm, #linhaDois{
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+#linhaUm:hover{
+    transition: 0.5s ease-in-out;
+    border-bottom: 2px solid black;
+}
+
+#linhaDois:hover{
+    transition: 0.5s ease-in-out;
+    border-bottom: 2px solid black;
+}

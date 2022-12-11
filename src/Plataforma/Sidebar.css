@@ -1,0 +1,11 @@
+.sidebar{
+    width: 550px;
+    height: 100%;
+    display: flex;
+    background-color:  #4E008E;
+   justify-content: space-between;
+   margin-top: 7.7%;
+   position: fixed;
+   margin-left: -215px;
+   opacity: 95%;
+}
